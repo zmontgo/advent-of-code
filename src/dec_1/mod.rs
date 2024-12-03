@@ -3,7 +3,7 @@ use crate::read_file;
 use std::collections::HashMap;
 
 pub fn day_one() {
-    let input = read_file("src/one/input.txt".to_string());
+    let input = read_file("src/dec_1/input.txt".to_string());
     let input = input.trim();
 
     let mut list_one: Vec<i32> = vec![];

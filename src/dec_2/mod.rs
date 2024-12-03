@@ -1,7 +1,7 @@
 use crate::read_file;
 
 pub fn day_two() {
-    let input = read_file("src/two/input.txt".to_string());
+    let input = read_file("src/dec_2/input.txt".to_string());
     let input = input.trim();
 
     let mut safe_count: u64 = 0;

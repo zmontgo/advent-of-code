@@ -1,7 +1,8 @@
 use std::env;
 
-mod one;
-mod two;
+mod dec_1;
+mod dec_2;
+mod dec_3;
 
 use std::fs;
 
@@ -11,8 +12,9 @@ fn main() {
     let query = &args[1];
 
     match query.as_str() {
-        "one" => one::day_one(),
-        "two" => two::day_two(),
+        "one" => dec_1::day_one(),
+        "two" => dec_2::day_two(),
+        "three" => dec_3::day_three(),
         _ => println!("Invalid query."),
     };
 }
