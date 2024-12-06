@@ -4,6 +4,7 @@ mod dec_1;
 mod dec_2;
 mod dec_3;
 mod dec_4;
+mod dec_5;
 
 use std::fs;
 
@@ -17,6 +18,7 @@ fn main() {
         "two" => dec_2::day_two(),
         "three" => dec_3::day_three(),
         "four" => dec_4::day_four(),
+        "five" => dec_5::day_five(),
         _ => println!("Invalid query."),
     };
 }
